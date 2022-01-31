@@ -43,3 +43,27 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+
+/* ************************************************************************
+    Start Style Second Section
+************************************************************************ */
+
+.second-task .box{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #4582B4;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .8s;
+}
+
+.second-task .box:hover{
+    border-radius: 5px;
+    transform: scale(1.8) rotate(45deg) translateY(50px);
+}
