@@ -3,3 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    font-family: cursive;
+}
+
+.task-sec {
+    padding: 50px 20px;
+}
+
+.task-sec .task-info{
+    Color: #4582B4;
+    font-size: 1.5rem;
+}
+
+.task-sec .task-container{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-task .btn{
+    min-width: 300px;
+    padding: 15px 20px;
+    border: 3px solid #4582B4;
+    background-color: #FFF;
+    font-size: 20px;
+    color: #4582B4;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.first-task .btn:hover{
+    min-width: 330px;
+    background-color: #4582B4;
+    color: #FFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    cursor: pointer;
+}
